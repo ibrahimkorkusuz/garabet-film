@@ -1,0 +1,95 @@
+.services {
+    background-color: black;
+    border-radius: 15px;
+}
+
+p {
+  color: black;
+}
+
+.services img {
+    text-align: center;
+}
+
+.service-text {
+    padding: 0 30px;
+}
+
+.title-yapim {
+    color: #594a9e;
+}
+
+.title-dagitim {
+    color: #EC7dB3;
+}
+
+.title-proje {
+    color: #e62c1f;
+}
+
+.title-satis {
+    color: #d1cc0a;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.service-border {
+    border-right: 2px solid white;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 650px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 110%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: black;
+    color: black;
+  }
+  
+  .flip-card-back {
+    border: 3px solid black;
+    color: black;
+    transform: rotateY(180deg);
+  }
+
+  .service-line {
+    margin-top:3.5rem;
+  }
+
+
+@media (max-width:600px) {
+  .mobile-line {
+    margin-top: 3.5rem;
+  }
+}

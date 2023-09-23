@@ -1,0 +1,17 @@
+.news img:hover {
+  filter: drop-shadow(10px 8px 1px gray);
+}
+
+.news .col-md-3 {
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .mobile-line {
+      margin-top: 3.5rem;
+  }
+  
+  .news .col-md-3 {
+    margin-bottom: 1rem;
+  }
+  }

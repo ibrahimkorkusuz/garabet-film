@@ -1,38 +1,57 @@
-.App {
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/figuera-variable');
+
+.main-class {
+  background-color: var(--main-backgroud-color);
+  color: var(--main-text-color);
+  width: 100%;
+  height: calc(100vh);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-class .container-fluid {
+  padding: 0 75px;
+}
+
+h1 {
   text-align: center;
+  font-family: 'Chivo', sans-serif;
+  margin-top: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.modal-dialog {
+  max-width: 768px;
+  border:1px solid white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.modal-header {
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.modal-content {
+  background: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-close {
+  filter: invert(1)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.title-bogulma{color: #E52421}
+
+.title-yeryuzu{color:#645FA7}
+
+.title-fikret{color: #C8D644}
+
+.title-kib{color: #DE64A1}
+
+.title-sinmek{color: #FFED00}
+
+.title-cinler{color: #5CA4DA}
+
+.title-prenses{color: #E5A082}

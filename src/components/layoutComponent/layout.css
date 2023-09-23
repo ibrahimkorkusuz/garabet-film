@@ -1,0 +1,86 @@
+.layout-container-class {
+  width: 100%;
+  height: 90px;
+  padding: var(--padding-size);
+}
+.layout-container-class li {
+  float: left;
+  margin: var(--margin-size);
+  font-size: var(--big-font-size);
+}
+.layout-container-class select {
+  float: right;
+  margin: var(--margin-size);
+}
+
+.logo-class {
+  float: left;
+  height: var(--logo-size);
+}
+
+.nav-link {
+  color: white !important;
+  font-family: 'Chivo', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-item { padding: 5px 10px; }
+
+.nav-link:hover {
+  color: wheat !important;
+}
+
+.navbar-brand img{
+  height: 172px;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icon img {
+  height: 24px;
+  padding: 0 5px;
+}
+
+.language {
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+  padding: 5px;
+  font-weight: 700;
+}
+
+
+.language option {
+  background-color: transparent;
+  font-weight: 700;
+  color: black;
+}
+
+
+@media (max-width:992px) {
+  .navbar-nav li {
+    border-bottom: 1px solid white;
+  }
+
+  .language {
+    margin: 1rem 0;
+  }
+
+  .navbar-toggler{
+    background: white;
+  }
+
+  option {
+    text-align: center;
+  }
+
+  .main-class .container-fluid {
+    padding: 0 35px;
+  }
+}

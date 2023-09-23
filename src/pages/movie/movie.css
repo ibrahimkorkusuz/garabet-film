@@ -1,0 +1,54 @@
+#movie-list{
+    padding: 0 !important;
+}
+
+#movie-list img {
+    clip-path: polygon(50.1% 2.3%, 100% 0%, 100% 43%, 100% 98.8%, 68.3% 97.3%, 32% 100%, 0% 98.8%, 0% 43%, 0% 0%);
+}
+
+.movie-item {
+    position: relative;
+}
+
+.movie-info {
+    position: absolute;
+    bottom: 7rem;
+    left: 8rem;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Figuera Variable', sans-serif;
+    font-size: 86px;
+}
+
+#movie-list p {color: white;}
+
+.btn {
+    background: transparent;
+    border-radius: 0;
+    color:white;
+    font-size: 15px;
+    padding: 13px 20px;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width:600px) {
+    .movie-info {
+        position: absolute;
+        bottom: 2rem;
+        left: 4rem;
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .movie-button {
+        margin-top: 5px !important;
+    }
+
+}

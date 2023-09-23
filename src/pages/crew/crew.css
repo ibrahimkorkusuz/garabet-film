@@ -1,0 +1,27 @@
+
+.crew-container-class {
+  width: 100%;
+}
+.crew-infoBox-container-class {
+  width: 30%;
+  float: left;
+  cursor: pointer;
+}
+.crew-logo-class {
+  width: 30px;
+}
+
+.berfin-yasar img:hover {
+  transition: width 2s, height 2s, transform 2s;
+  content: url('http://localhost:3000/static/media/Abdullah-Ugurlu-tr.5ca84855e78c6019be2a.jpg');
+}
+
+.ozer-onder img:hover {
+  transition: width 2s, height 2s, transform 2s;
+  content: url('http://localhost:3000/static/media/Abdullah-Ugurlu-tr.5ca84855e78c6019be2a.jpg');
+}
+
+.abdullah-ugurlu img:hover {
+  transition: width 2s, height 2s, transform 2s;
+  content: url('http://localhost:3000/static/media/Abdullah-Ugurlu-tr.5ca84855e78c6019be2a.jpg');
+}
