@@ -1,5 +1,6 @@
 import "./movie.css";
 import { useTranslation } from "react-i18next";
+import Icon from "../../assets/icon";
 import InfoBox from "../../components/infoBoxComponent/infoBox";
 
 
@@ -12,14 +13,14 @@ const Movie = () => {
       <div className="row">
         {/* <InfoBox header="" content="" containerClassName="col-md-12" icon={{name:"movieBogulmaninAdabi", className:"", imageClassName:"img-fluid"}}></InfoBox>    */} 
 
-        <div className="col-md-12 movie-item">    
-          <img src="http://garabetfilms.com/wp-content/uploads/2023/03/Banner-Bogulmanin-Adabi-1.jpg" alt="Boğulmanın Adabı" className="img-fluid" />
+        <div className="col-md-12 movie-item">   
+          <Icon name="movieBogulmaninAdabi" imageClassName="img-fluid"/> 
           <div className="movie-info">
-            <h2 className="title-bogulma">BOĞULMANIN ADABI</h2>
-            <p>Otuz katlı apartman. Tek bir asansör.</p>
+            <h2 className="title-bogulma">{t("bogulmaninAdabiTitle")}</h2>
+            <p>{t("bogulmaninAdabiContent")}</p>
             <div className="movie-button mt-5">
-              <button type="button" className="fragman-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#bogulmaninAdabi">Fragmanı İzle</button>
-              <a href="#" className="detay-btn btn btn-light mx-2">Detay</a>
+              <button type="button" className="fragman-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#bogulmaninAdabi">{t("fragmanBtn")}</button>
+              <a href="#" className="detay-btn btn btn-light mx-2">{t("detayBtn")}</a>
             </div> 
           </div> 
         </div>
@@ -28,69 +29,62 @@ const Movie = () => {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <h1 className="modal-title fs-5">Boğulmanın Adabı</h1>
+                <h1 className="modal-title fs-5">{t("bogulmaninAdabiTitle")}</h1>
                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div className="modal-body">
-                Otuz katlı apartman. Tek bir asansör.
+                {t("bogulmaninAdabiContent")}
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/BTm3w6PaU6Y?si=wRT-WP8YCS0iHAtI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
               </div>
             </div>
           </div>
         </div>
         
-
         <div className="col-md-12 movie-item">    
-          <img src="http://garabetfilms.com/wp-content/uploads/2023/03/Fikret-BG-1.jpg" alt="Fikret" className="img-fluid" />
+          <Icon name="movieKib" imageClassName="img-fluid"/> 
           <div className="movie-info">
-            <h2 className="title-kib">KİB</h2>
-            <p>Bir sosyal medya fenomeni anneannesi ile şoke edici bir selfie çeker.</p>
+            <h2 className="title-kib">{t("kibTitle")}</h2>
+            <p>{t("kibContent")}</p>
             <div className="movie-button mt-5">
-              <a href="#" className="fragman-btn btn btn-danger">Fragmanı İzle</a> 
-              <a href="#" className="detay-btn btn btn-light mx-2">Detay</a>
+              <a href="#" className="detay-btn btn btn-light mx-2">{t("detayBtn")}</a>
             </div> 
           </div> 
         </div> 
 
-
         <div className="col-md-12 movie-item">    
-          <img src="http://garabetfilms.com/wp-content/uploads/2023/03/Fikret-BG-1.jpg" alt="Fikret" className="img-fluid" />
+          <Icon name="movieYeryuzunden" imageClassName="img-fluid"/> 
           <div className="movie-info">
-            <h2 className="title-yeryuzu">YERYÜZÜNDEN</h2>
-            <p>Maden kasabasında yaşanan doğaüstü olayların gizemi.</p>
+            <h2 className="title-yeryuzu">{t("yeryuzuTitle")}</h2>
+            <p>{t("yeryuzuContent")}</p>
             <div className="movie-button mt-5">
-              <a href="#" className="fragman-btn btn btn-danger">Fragmanı İzle</a> 
-              <a href="#" className="detay-btn btn btn-light mx-2">Detay</a>
+              <a href="#" className="detay-btn btn btn-light mx-2">{t("detayBtn")}</a>
             </div> 
           </div> 
         </div>
 
         <div className="col-md-12 movie-item">    
-          <img src="http://garabetfilms.com/wp-content/uploads/2023/03/Fikret-BG-1.jpg" alt="Fikret" className="img-fluid" />
+          <Icon name="movieSinmek" imageClassName="img-fluid"/> 
           <div className="movie-info">
-            <h2 className="title-sinmek">SİN'MEK</h2>
-            <p>Sevil doğumgününde mantar alerjisinin üstüne gitmeye karar verir.</p>
+            <h2 className="title-sinmek">{t("sinmekTitle")}</h2>
+            <p>{t("fikretContent")}</p>
             <div className="movie-button mt-5">
-              <a href="#" className="fragman-btn btn btn-danger">Fragmanı İzle</a> 
-              <a href="#" className="detay-btn btn btn-light mx-2">Detay</a>
+              <a href="#" className="detay-btn btn btn-light mx-2">{t("detayBtn")}</a>
             </div> 
           </div> 
         </div>
 
         <div className="col-md-12 movie-item">    
-          <img src="http://garabetfilms.com/wp-content/uploads/2023/03/Fikret-BG-1.jpg" alt="Fikret" className="img-fluid" />
+          <Icon name="movieFikret" imageClassName="img-fluid"/> 
           <div className="movie-info">
-            <h2 className="title-fikret">FİKRET</h2>
-            <p>Bazı insanlar ölse de kalpleri büyümeye devam eder.</p>
+            <h2 className="title-fikret">{t("fikretTitle")}</h2>
+            <p>{t("fikretContent")}</p>
             <div className="movie-button mt-5">
-              <a href="#" className="fragman-btn btn btn-danger">Fragmanı İzle</a> 
-              <a href="#" className="detay-btn btn btn-light mx-2">Detay</a>
+              <a href="#" className="fragman-btn btn btn-danger">{t("fragmanBtn")}</a> 
+              <a href="#" className="detay-btn btn btn-light mx-2">{t("detayBtn")}</a>
             </div> 
           </div> 
         </div>
         
-
-          
       </div>
     </div>
   );

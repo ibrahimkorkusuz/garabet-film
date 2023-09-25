@@ -80,8 +80,15 @@ import yagmurSahin from "./images/yagmur-sahin.jpg"
 import yagmurSahinTr from "./images/yagmur-sahin-tr.jpg"
 import movieBogulmaninAdabi from "./images/banners/1-bogulmanin-adabi.jpg"
 import movieFikret from "./images/banners/5-fikret.png"
+import movieSinmek from "./images/banners/4-sinmekk.jpg"
+import movieKib from "./images/banners/2-kibb.jpg"
+import movieYeryuzunden from "./images/banners/3-yeryuzundenn.jpg"
 import fragmanBtn from "./icons/fragman.png"
 import detayBtn from "./icons/detay.png"
+import homeBannerTR from "./images/anasayfaTR.jpg"
+import homeBannerEN from "./images/anasayfaENG.jpg"
+import prensesModel from "./images/banners/prenses-model.png"
+import cinlerCirit from "./images/banners/cinler-cirit-oynarkenn.jpg"
 
 interface IIcon {
   [key: string]: any;
@@ -89,6 +96,8 @@ interface IIcon {
 
 //TODO : yeni iconları buraya ekle.
 const ICONS: IIcon = {
+  "homeBannerTR": homeBannerTR,
+  "homeBannerEN": homeBannerEN,
   "detayBtn": detayBtn,
   "fragmanBtn": fragmanBtn,
   "garabet-logo": garabetLogo,
@@ -169,7 +178,12 @@ const ICONS: IIcon = {
   "yagmurSahin": yagmurSahin,
   "yagmurSahinTr": yagmurSahinTr,
   "movieBogulmaninAdabi": movieBogulmaninAdabi,
-  "movieFikret": movieFikret
+  "movieFikret": movieFikret,
+  "movieSinmek": movieSinmek,
+  "movieKib": movieKib,
+  "movieYeryuzunden": movieYeryuzunden,
+  "prensesModel": prensesModel,
+  "cinlerCirit": cinlerCirit
 
 };
 

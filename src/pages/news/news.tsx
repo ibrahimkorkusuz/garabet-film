@@ -16,54 +16,54 @@ alert(content);
     <div className="container news">
 
       <div className="row">
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage27", className:"deneme", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage27", imagelassName:"deneme", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>
         {/* <div className="col-md-3">
           <a href="#"><img className="img-fluid" src="http://garabetfilms.com/wp-content/uploads/2023/03/27.jpeg" /></a>
         </div> */}
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage26", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage25", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage24", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage26", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage25", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage24", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
       </div>
       
       <div className="row mt-4">
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage23", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage22", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage21", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage20", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage23", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage22", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage21", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage20", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
       </div>
 
       <div className="row mt-4">
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage19", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage18", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage17", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage16", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage19", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage18", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage17", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage16", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
       </div>
 
       <div className="row mt-4">
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage15", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage14", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage13", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage12", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage15", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage14", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage13", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage12", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
       </div>
 
       <div className="row mt-4">
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage11", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage10", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage9", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage8", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage11", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage10", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage9", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage8", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
       </div>
 
       <div className="row mt-4">
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage7", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage6", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage5", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage4", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage7", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage6", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage5", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage4", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
       </div>
 
       <div className="row mt-4">
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage3", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage2", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
-        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage1", className:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage3", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage2", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>        
+        <InfoBox header="" content="" containerClassName="col-md-3" icon={{name:"bultenImage1", imageClassName:"img-fluid"}} onClick={()=>newsOnClick("--test--")}></InfoBox>  
       </div>
     </div>
   </>

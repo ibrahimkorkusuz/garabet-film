@@ -49,6 +49,10 @@ h2 {
         font-size: 25px;
     }
 
+    #movie-list img {
+        height: 14rem;
+    }
+
     .movie-button {
         margin-top: 5px !important;
     }

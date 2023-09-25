@@ -1,5 +1,6 @@
 import "./documentary.css";
 import "../movie/movie.css";
+import Icon from "../../assets/icon";
 import { useTranslation } from "react-i18next";
 import InfoBox from "../../components/infoBoxComponent/infoBox";
 
@@ -9,26 +10,25 @@ const Documentary = () => {
   return (
     <div id="movie-list" className="container-fluid">
       <h1>{t("DOCUMENTARY")}</h1>
-      <div className="row movie-item">
-        <img src="http://garabetfilms.com/wp-content/uploads/2023/02/prenses-model.jpg" alt="Boğulmanın Adabı" className="img-fluid" />
-        <div className="movie-info">
-          <h2 className="title-prenses">Prenses Model</h2>
-          <p>Gelinlik sektöründe çalışan kadın işçiler prenses masallarını alaşağı ediyor.</p>
-          <div className="movie-button mt-5">
-            <a href="#" className="fragman-btn btn btn-danger">Fragmanı İzle</a> 
-            <a href="#" className="detay-btn btn btn-light mx-2">Detay</a>
+
+      <div className="col-md-12 movie-item">   
+          <Icon name="prensesModel" imageClassName="img-fluid"/> 
+          <div className="movie-info">
+            <h2 className="title-prenses">{t("prensesModelTitle")}</h2>
+            <p>{t("prensesModelContent")}</p>
+            <div className="movie-button mt-5">
+              <a href="#" className="detay-btn btn btn-light mx-2">{t("detayBtn")}</a>
+            </div> 
           </div> 
-        </div> 
-      </div>
+        </div>
 
       <div className="row movie-item">    
         <img src="http://garabetfilms.com/wp-content/uploads/2023/02/cinler-cirit-oynarken.jpg" alt="Fikret" className="img-fluid" />
         <div className="movie-info">
-          <h2 className="title-cinler">Cinler Cirit Oynarken</h2>
-          <p>Şeytanlı Ağaç, Cin Kuyusu, Dipsiz Göl… Anadolu’nun cinlerin cirit attığı köşelerini keşfe çıkıyoruz.</p>
+          <h2 className="title-cinler">{t("cinlerTitle")}</h2>
+          <p>{t("cinlerContent")}</p>
           <div className="movie-button mt-5">
-            <a href="#" className="fragman-btn btn btn-danger">Fragmanı İzle</a> 
-            <a href="#" className="detay-btn btn btn-light mx-2">Detay</a>
+            <a href="#" className="detay-btn btn btn-light mx-2">{t("detayBtn")}</a>
           </div> 
         </div> 
       </div>   
