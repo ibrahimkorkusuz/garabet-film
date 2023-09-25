@@ -13,7 +13,7 @@ const Layout = () => {
   };
   return (
     <>
-        <nav className="navbar navbar-expand-lg bg-black menu-nav-font">
+        <nav className="navbar navbar-expand-lg bg-black fixed-top menu-nav-font">
           <div className="container-fluid">
             <Icon name="garabet-logo" className="navbar-brand logo-className" />
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

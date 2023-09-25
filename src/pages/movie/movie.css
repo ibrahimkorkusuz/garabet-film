@@ -4,17 +4,19 @@
 
 #movie-list img {
     clip-path: polygon(50.1% 2.3%, 100% 0%, 100% 43%, 100% 98.8%, 68.3% 97.3%, 32% 100%, 0% 98.8%, 0% 43%, 0% 0%);
+    padding: 0;
 }
 
 .movie-item {
     position: relative;
+    margin: 0;
 }
 
 .movie-info {
     position: absolute;
     bottom: 7rem;
     left: 8rem;
-    width: 100%;
+    width: 60%;
 }
 
 h2 {
