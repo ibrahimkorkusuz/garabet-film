@@ -11,7 +11,44 @@
   width: 30px;
 }
 
-.berfin-yasar img:hover {
+.crew {
+  position: relative;
+  /* margin-top: 10rem; */
+}
+
+.crew h2{
+    font-size: 33px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.crew h3 {
+  font-size: 18px;
+  text-shadow: 3px 3px 15px #654321
+}
+
+.detail-class {
+  position: absolute;
+  background: url(http://localhost:3000/static/media/golge.2f787d7e415d93bb8a2d.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  width: 100%;
+  bottom: 1rem;
+  transition: .5s ease;
+  opacity: 0;
+  color: black;
+  font-size: 20px;
+  padding: 14rem 2rem;
+  text-align: center;
+}
+
+.col-md-3:hover .detail-class {
+  visibility: visible;
+  opacity: .8;
+}
+
+/* .berfin-yasar img:hover {
   transition: width 2s, height 2s, transform 2s;
   content: url('http://localhost:3000/static/media/Abdullah-Ugurlu-tr.5ca84855e78c6019be2a.jpg');
 }
@@ -24,4 +61,4 @@
 .abdullah-ugurlu img:hover {
   transition: width 2s, height 2s, transform 2s;
   content: url('http://localhost:3000/static/media/Abdullah-Ugurlu-tr.5ca84855e78c6019be2a.jpg');
-}
+} */

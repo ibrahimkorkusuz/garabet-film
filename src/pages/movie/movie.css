@@ -6,10 +6,26 @@
     clip-path: polygon(50.1% 2.3%, 100% 0%, 100% 43%, 100% 98.8%, 68.3% 97.3%, 32% 100%, 0% 98.8%, 0% 43%, 0% 0%);
     padding: 0;
 }
+/* 
+#movie-list {
+    margin-top: 10rem;
+} */
 
 .movie-item {
     position: relative;
     margin: 0;
+}
+
+#movie-list .row>* {
+    padding: 0 !important;
+}
+
+#movie-list .row {
+    margin: 0 !important;
+}
+
+#movie-list .img-fluid {
+    width: 100%;
 }
 
 .movie-info {
@@ -17,6 +33,18 @@
     bottom: 7rem;
     left: 8rem;
     width: 60%;
+}
+
+.modal-detay img {
+    height: 25rem;
+}
+
+.modal-detay-dialog {
+    width: 400px;
+}
+
+.modal-detay-content{
+    background-color: maroon;
 }
 
 h2 {
@@ -45,12 +73,24 @@ h2 {
         width: 80%;
     }
 
+    .modal-detay-dialog { width: 22rem;}
+
     h2 {
         font-size: 25px;
     }
 
+    
+    #movie-list {
+        margin-top: 10rem;
+    }
+
     #movie-list img {
         height: 14rem;
+        object-fit: cover;
+    }
+
+    .modal-detay img {
+        margin-left: 2rem;
     }
 
     .movie-button {

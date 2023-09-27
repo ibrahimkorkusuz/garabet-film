@@ -10,8 +10,12 @@ const Home = () => {
   //TODO: sayfaların html'leri oluşturulup return ile dönülecek.
 
   return <>
-      <Icon name="homeBannerTR" imageClassName="img-fluid home-banner"/>
-      <Icon name="homeBannerEN" imageClassName="img-fluid home-banner"/>
+      <div className="banner-item content-body">
+        <Icon name="homeBanner" imageClassName="img-fluid home-banner-mobile"/>
+        <p className="banner-text">
+          {t("bannerText")}
+        </p>
+      </div>
   </>;
 };
 

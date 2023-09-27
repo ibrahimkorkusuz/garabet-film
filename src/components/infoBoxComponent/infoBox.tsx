@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import Icon from "../../assets/icon";
 
 function InfoBox(props: any) {
-  const { containerClassName, containerSubClassName,infoBoxContentClassName, infoBoxTitleClassName, icon, header, content, detail, onClick } = props;
+  const { containerClassName, containerSubClassName,infoBoxContentClassName, infoBoxTitleClassName, icon, header, content, detail,infoBoxDetailClassName, onClick } = props;
   const { t } = useTranslation();
 
   const infoBoxOnClick = onClick ? onClick : () => {};
@@ -14,13 +14,13 @@ function InfoBox(props: any) {
       <div className={containerSubClassName}>
 
         {icon !== undefined ? (
-          <Icon name={icon.name} className={icon.className} imageClassName={icon.imageClassName}  />
+          <Icon name={icon.name} className={icon.className} imageClassName={icon.imageClassName}  />          
         ) : (
           <div />
         )}
         <div className={infoBoxContentClassName}><h3 className={infoBoxTitleClassName}>{t(header)}</h3> <p>{t(content)}</p></div>
         {detail !== undefined ? (
-          <div>{detail}</div>
+          <div className={infoBoxDetailClassName}><h2>{detail.name}</h2><h3>{t(detail.title)}</h3></div>
         ) : (
           <div/>
         )}
@@ -35,7 +35,8 @@ InfoBox.propTypes = {
   icon: PropTypes.any,
   header: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,
-  detail: PropTypes.string,
+  detail: PropTypes.any,
+  infoBoxDetailClassName:PropTypes.string,
   onClick: PropTypes.func,
   containerSubClassName: PropTypes.string,
   infoBoxContentClassName: PropTypes.string,

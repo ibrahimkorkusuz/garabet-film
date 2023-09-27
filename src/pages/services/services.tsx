@@ -10,11 +10,8 @@ const Services = () => {
 
   return(
   <>
-    <div className="container">
-      <h1>{t("SERVICES")}</h1>
-
+    <div className="container services content-body">
       <div className="row">
-
       <InfoBox
         containerClassName="col-md-6 service-border flip-card"
         containerSubClassName="flip-card-inner"

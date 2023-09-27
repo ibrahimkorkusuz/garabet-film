@@ -6,6 +6,28 @@
     cursor: pointer;
 }
 
+.news .img-fluid {
+  width: 100%;
+}
+
+.news h2 {
+  font-size: 25px;
+}
+
+/* .news {
+  margin-top: 10rem;
+} */
+
+.block{
+  display: block;
+}
+
+.news p { 
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+}
+
 @media (max-width:600px) {
     .mobile-line {
       margin-top: 3.5rem;

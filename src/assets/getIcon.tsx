@@ -38,46 +38,26 @@ import bulten24 from "./images/24-1.jpg"
 import bulten25 from "./images/25-1.jpeg"
 import bulten26 from "./images/26-1.jpg"
 import bulten27 from "./images/27.jpeg"
-import abdullahUgurlu from "./images/Abdullah-Ugurlu.jpg"
-import abdullahUgurluTr from "./images/Abdullah-Ugurlu-tr.jpg"
-import aliAltunsoyTr from "./images/Ali-Altunsoy-tr.jpg"
-import aliAltunsoy from "./images/Ali-Altunsoy.jpg"
-import alpSeker from "./images/Alp-Seker.jpg"
-import alpSekerTr from "./images/Alp-Seker-tr.jpg"
-import bahadirOzdemir from "./images/Bahadir-Ozdemir.jpg"
-import bahadirOzdemirTr from "./images/Bahadir-Ozdemir-tr.jpg"
-import berfinYasar from "./images/berfin-yasar.jpg"
-import berfinYasarTr from "./images/berfin-yasar-tr.jpg"
-import dilanEngin from "./images/Dilan-Engin.jpg"
-import dilanEnginTr from "./images/Dilan-Engin-tr.jpg"
-import dilerErcan from "./images/Diler-Ercan.jpg"
-import dilerErcanTr from "./images/Diler-Ercan-tr.jpg"
-import eceKoyuncu from "./images/Ece-Koyuncu.jpg"
-import eceKoyuncuTr from "./images/Ece-Koyuncu-tr.jpg"
-import evrimEzgiYildirim from "./images/Evrim-Ezgi-Yildirim.jpg"
-import evrimEzgiYildirimTr from "./images/Evrim-Ezgi-Yildirim-tr.jpg"
-import hazalOrhan from "./images/hazal-orhan.jpg"
-import hazalOrhanTr from "./images/hazal-orhan-tr.jpg"
-import hubeybUzum from "./images/Hubeyb-Uzum.jpg"
-import hubeybUzumTr from "./images/Hubeyb-Uzum-tr.jpg"
-import hurriyetRahsan from "./images/Hurriyet-rahsan-sunay.jpg"
-import hurriyetRahsanTr from "./images/Hurriyet-rahsan-sunay-tr.jpg"
-import ilginTanay from "./images/ilgin-tanay.jpg"
-import ilginTanayTr from "./images/ilgin-tanay-tr.jpg"
-import oguzhanInce from "./images/Oguzhan-inceogullari.jpg"
-import oguzhanInceTr from "./images/Oguzhan-inceogullari-tr.jpg"
-import ozerOnder from "./images/Ozer-Onder.jpg"
-import ozerOnderTr from "./images/Ozer-Onder-tr.jpg"
-import saadetIsmen from "./images/Saadet-Ismen-Ozdemir.jpg"
-import saadetIsmenTr from "./images/Saadet-Ismen-Ozdemir-tr.jpg"
-import selenOzturk from "./images/Selen-Ozturk.jpg"
-import selenOzturkTr from "./images/Selen-Ozturk-tr.jpg"
-import sertacKoyuncu from "./images/Sertac-Koyuncu.jpg"
-import sertacKoyuncuTr from "./images/Sertac-Koyuncu-tr.jpg"
-import sevincKaratas from "./images/Sevinc-Karatas.jpg"
-import sevincKaratasTr from "./images/Sevinc-Karatas-tr.jpg"
-import yagmurSahin from "./images/yagmur-sahin.jpg"
-import yagmurSahinTr from "./images/yagmur-sahin-tr.jpg"
+import abdullahUgurlu from "./images/Abdullatif_Ugurlu.png"
+import aliAltunsoy from "./images/Ali_Altunsoy.png"
+import alpSeker from "./images/Alp_Seker.png"
+import bahadirOzdemir from "./images/Bahadir_Ozdemir.png"
+import berfinYasar from "./images/Berfin_Yasar.png"
+import dilanEngin from "./images/Dilan_Engin.png"
+import dilerErcan from "./images/Diler_Ercan.png"
+import eceKoyuncu from "./images/Ece_Koyuncu.png"
+import evrimEzgiYildirim from "./images/Evrim_Ezgi.png"
+import hazalOrhan from "./images/Hazal_Orhan.png"
+import hubeybUzum from "./images/Hubeyb_Uzum.png"
+import hurriyetRahsan from "./images/Hurriyet_Rahsan.png"
+import ilginTanay from "./images/ilgin_tanay.png"
+import oguzhanInce from "./images/Oguzhan_inceogulları.png"
+import ozerOnder from "./images/Ozer_Onder.png"
+import saadetIsmen from "./images/Saadet_ismen.png"
+import selenOzturk from "./images/Selen_Ozturk.png"
+import sertacKoyuncu from "./images/Sertac_Koyuncu.png"
+import sevincKaratas from "./images/Sevinc_Karatas.png"
+import yagmurSahin from "./images/yagmur-sahin.png"
 import movieBogulmaninAdabi from "./images/banners/1-bogulmanin-adabi.jpg"
 import movieFikret from "./images/banners/5-fikret.png"
 import movieSinmek from "./images/banners/4-sinmekk.jpg"
@@ -87,8 +67,17 @@ import fragmanBtn from "./icons/fragman.png"
 import detayBtn from "./icons/detay.png"
 import homeBannerTR from "./images/anasayfaTR.jpg"
 import homeBannerEN from "./images/anasayfaENG.jpg"
+import homeBanner from "./images/anasayfa-bannerr.jpg"
 import prensesModel from "./images/banners/prenses-model.png"
-import cinlerCirit from "./images/banners/cinler-cirit-oynarkenn.jpg"
+import cinlerCirit from "./images/cinler-cirit-oynarkenn.jpg"
+import baPoster from "./images//bogulmaPoster.jpg"
+import kibPoster from "./images//kibPoster.jpg"
+import yeryuzuPoster from "./images/yeryuzuPoster.jpg"
+import sinmekPoster from "./images/sinmekPoster.jpg"
+import fikretPoster from "./images/fikretPoster.jpg"
+import prensesPoster from "./images/prensesPoster.jpg"
+import cinlerPoster from "./images/cinlerPoster.jpg"
+import golge from "./images/golge.png"
 
 interface IIcon {
   [key: string]: any;
@@ -96,6 +85,14 @@ interface IIcon {
 
 //TODO : yeni iconları buraya ekle.
 const ICONS: IIcon = {
+  "baPoster": baPoster,
+  "golge": golge,
+  "prensesPoster": prensesPoster,
+  "cinlerPoster": cinlerPoster,
+  "yeryuzuPoster": yeryuzuPoster,
+  "sinmekPoster": sinmekPoster,
+  "fikretPoster": fikretPoster,
+  "kibPoster": kibPoster,
   "homeBannerTR": homeBannerTR,
   "homeBannerEN": homeBannerEN,
   "detayBtn": detayBtn,
@@ -138,52 +135,33 @@ const ICONS: IIcon = {
   "bultenImage26": bulten26,
   "bultenImage27": bulten27,
   "abdullahUgurlu": abdullahUgurlu,
-  "abdullahUgurluTr": abdullahUgurluTr,
-  "aliAltunsoyTr": aliAltunsoyTr,
   "aliAltunsoy": aliAltunsoy,
   "alpSeker": alpSeker,
-  "alpSekerTr": alpSekerTr,
   "bahadirOzdemir": bahadirOzdemir,
-  "bahadirOzdemirTr": bahadirOzdemirTr,
   "berfinYasar": berfinYasar,
-  "berfinYasarTr": berfinYasarTr,
   "dilanEngin": dilanEngin,
-  "dilanEnginTr": dilanEnginTr,
   "dilerErcan": dilerErcan,
-  "dilerErcanTr": dilerErcanTr,
   "eceKoyuncu": eceKoyuncu,
-  "eceKoyuncuTr": eceKoyuncuTr,
   "evrimEzgiYildirim": evrimEzgiYildirim,
-  "evrimEzgiYildirimTr": evrimEzgiYildirimTr,
   "hazalOrhan": hazalOrhan,
-  "hazalOrhanTr": hazalOrhanTr,
   "hubeybUzum": hubeybUzum,
-  "hubeybUzumTr": hubeybUzumTr,
   "hurriyetRahsan": hurriyetRahsan,
-  "hurriyetRahsanTr": hurriyetRahsanTr,
   "ilginTanay": ilginTanay,
-  "ilginTanayTr": ilginTanayTr,
   "oguzhanInce": oguzhanInce,
-  "oguzhanInceTr": oguzhanInceTr,
   "ozerOnder": ozerOnder,
-  "ozerOnderTr": ozerOnderTr,
   "saadetIsmen": saadetIsmen,
-  "saadetIsmenTr": saadetIsmenTr,
   "selenOzturk": selenOzturk,
-  "selenOzturkTr": selenOzturkTr,
   "sertacKoyuncu": sertacKoyuncu,
-  "sertacKoyuncuTr": sertacKoyuncuTr,
   "sevincKaratas": sevincKaratas,
-  "sevincKaratasTr": sevincKaratasTr,
   "yagmurSahin": yagmurSahin,
-  "yagmurSahinTr": yagmurSahinTr,
   "movieBogulmaninAdabi": movieBogulmaninAdabi,
   "movieFikret": movieFikret,
   "movieSinmek": movieSinmek,
   "movieKib": movieKib,
   "movieYeryuzunden": movieYeryuzunden,
   "prensesModel": prensesModel,
-  "cinlerCirit": cinlerCirit
+  "cinlerCirit": cinlerCirit,
+  "homeBanner": homeBanner
 
 };
 

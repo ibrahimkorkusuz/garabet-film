@@ -1,3 +1,33 @@
-.home-banner {
-    margin-top: -2rem;
+.banner-item {
+    margin-top: -12rem;
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: 20rem;
+    right: 15rem;
+    color: white;
+    font-family: 'Figuera Variable', sans-serif;
+    font-size: 65px;
+    width: 50%;
+    text-align: right;
+}
+
+.banner-item .img-fluid{
+    height: 58.2rem;
+    width: -webkit-fill-available;
+  }
+
+@media (max-width:600px) {
+    .home-banner-mobile  {
+        height: 33.7rem !important;
+        object-fit: cover;
+    }
+
+    .banner-text {
+        font-size: 25px;
+        top: 22rem;
+        right: 2rem;
+    }
 }
