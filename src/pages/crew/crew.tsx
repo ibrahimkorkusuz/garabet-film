@@ -1,6 +1,7 @@
 import "./crew.css";
 import { useTranslation } from "react-i18next";
 import InfoBox from "../../components/infoBoxComponent/infoBox";
+import Icon from "../../assets/icon";
 
 const Crew = () => {
   const { t } = useTranslation();
@@ -12,6 +13,7 @@ const Crew = () => {
   return (
     <div className="container content-body">
       <div className="row">
+        {/* <Icon name="golge" imageClassName="img-fluid"/>  */}
         <InfoBox header="" content="" containerClassName="col-md-3 crew" icon={{name:"berfinYasar", imageClassName:"img-fluid"}} detail={{name:"Berfin Yaşar", title:"Director"}} infoBoxDetailClassName="detail-class"></InfoBox>        
         <InfoBox header="" content="" containerClassName="col-md-3 crew" icon={{name:"ozerOnder", imageClassName:"img-fluid"}}detail={{name:"Özer Önder", title:"Tretment Writer"}} infoBoxDetailClassName="detail-class"></InfoBox>        
         <InfoBox header="" content="" containerClassName="col-md-3 crew" icon={{name:"abdullahUgurlu", imageClassName:"img-fluid",}}detail={{name:"Abdullatif Ugurlu", title:"Graphic Designer"}} infoBoxDetailClassName="detail-class"></InfoBox> 
