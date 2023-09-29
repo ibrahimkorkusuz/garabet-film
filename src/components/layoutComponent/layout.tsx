@@ -2,7 +2,8 @@ import { Outlet, Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./layout.css";
 import Icon from "../../assets/icon";
-import "bootstrap/dist/js/bootstrap.js"
+import "bootstrap/dist/js/bootstrap.js";
+
 
 const Layout = () => {
   const { t, i18n } = useTranslation();
@@ -26,6 +27,7 @@ const Layout = () => {
                 </li> */}
                 <li className="nav-item">
                   <Link className="nav-link" to="/movie">{t("MOVIE")}</Link>
+                  {/* <Link className="nav-link"  data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" to="/movie">{t("MOVIE")}</Link> */}
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/documentary">{t("DOCUMENTARY")}</Link>

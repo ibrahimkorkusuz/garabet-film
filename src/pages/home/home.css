@@ -21,7 +21,7 @@
 
 @media (max-width:600px) {
     .home-banner-mobile  {
-        height: 33.7rem !important;
+        height: 42rem !important;
         object-fit: cover;
     }
 

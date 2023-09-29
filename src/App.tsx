@@ -10,7 +10,6 @@ import Crew from "./pages/crew/crew";
 import Contact from "./pages/contact/contact";
 import Layout from "./components/layoutComponent/layout";
 
-
 function App() {
   return (
     <div className="main-class">

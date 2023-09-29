@@ -9,6 +9,7 @@ const Movie = () => {
   const { t } = useTranslation();
 
   return (
+    
     <div id="movie-list" className="container-fluid content-body">
       <div className="row">
         

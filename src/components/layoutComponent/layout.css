@@ -83,6 +83,11 @@
 }
 
 @media (max-width:992px) {
+
+  .collapsed.in {
+    display: block !important;
+    }
+
   .navbar-nav li {
     border-bottom: 1px solid white;
   }
